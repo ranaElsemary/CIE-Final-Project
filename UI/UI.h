@@ -1,5 +1,4 @@
-#ifndef __UI_H_
-#define __UI_H_
+#pragma once
 
 #include "..\CMUgraphicsLib\CMUgraphics.h"
 #include "..\Defs.h"
@@ -94,7 +93,7 @@ public:
 	
 	
 	// Input Functions  ---------------------------
-	void GetPointClicked(int& x, int& y );
+	void GetPointClicked(int& x, int& y);
 	//Get coordinate where user clicks
 	string GetSrting();		//Returns a string entered by the user
 
@@ -136,5 +135,3 @@ public:
 
 	~UI();
 };
-
-#endif

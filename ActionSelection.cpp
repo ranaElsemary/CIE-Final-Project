@@ -1,14 +1,14 @@
 #include "ActionSelection.h"
-#include "../CIE202-Electric-Circuit-Sim/ApplicationManager.h"
+#include "ApplicationManager.h"
 #include "Actions\ActionAddRes.h"
 #include "Actions\ActionAddBattery.h"
 #include "Actions\ActionAddBulb.h"
 #include "Actions\ActionAddFuse.h"
 #include "Actions\ActionAddConnection.h"
-#include "..\\CIE202-Electric-Circuit-Sim\ActionAddBuzzer.h"
-#include "..\CIE202-Electric-Circuit-Sim\ActionAddGround.h"
-#include "..\CIE202-Electric-Circuit-Sim\ActionAddSwitch.h"
-#include "..\CIE202-Electric-Circuit-Sim\UI\UI.h"
+#include "ActionAddBuzzer.h"
+#include "ActionAddGround.h"
+#include "ActionAddSwitch.h"
+#include "UI\UI.h"
 #include"ApplicationManager.h"
 #include"ApplicationManager.cpp"
 #include "Components/Component.h"
@@ -17,8 +17,7 @@
 
 ActionSelection::ActionSelection(ApplicationManager* pApp): Action (pApp)
 {
-	Component* item;
-	item->Selected = false;
+	
 }
 
 ActionSelection::~ActionSelection(void)

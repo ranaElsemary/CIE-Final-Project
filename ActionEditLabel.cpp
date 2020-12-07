@@ -1,6 +1,6 @@
 #include "ActionEditLabel.h"
-#include "..\CIE202-Electric-Circuit-Sim\Components\Component.h"
-#include "..\CIE202-Electric-Circuit-Sim\ApplicationManager.h"
+#include "Components\Component.h"
+#include "ApplicationManager.h"
 
 ActionEditLabel::ActionEditLabel(ApplicationManager* pApp) :Action(pApp)
 {

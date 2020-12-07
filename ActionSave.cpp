@@ -1,6 +1,6 @@
 #include "ActionSave.h"
-#include "..\CIE202-Electric-Circuit-Sim\ApplicationManager.h"
-#include "..\CIE202-Electric-Circuit-Sim\Components\Component.h"
+#include "../CIE-Final-Project/ApplicationManager.h"
+#include "Components/Component.h"
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>

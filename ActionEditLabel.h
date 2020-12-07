@@ -2,8 +2,8 @@
 #ifndef _EDIT_LABEL_H
 #define _EDIT_LABEL_H
 
-#include "..\\CIE202-Electric-Circuit-Sim\Actions\Action.h"
-#include "..\\CIE202-Electric-Circuit-Sim\Components\Component.h"
+#include "Actions/Action.h"
+#include "Components/Component.h"
 
 class ActionEditLabel : public Action
 {

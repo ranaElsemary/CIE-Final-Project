@@ -1,5 +1,5 @@
 #pragma once
-#include "..\CIE202-Electric-Circuit-Sim\Actions\Action.h"
+#include "Actions/Action.h"
 
 class ActionSelection : public Action
 {
@@ -7,7 +7,7 @@ class ActionSelection : public Action
 private:
 	int Cx, Cy;
 	public:
-		ActionSelection(ApplicationManager* pApp): Action(pApp) { pManager = pApp; }	//constructor
+		ActionSelection(ApplicationManager* pApp);	//constructor
 		virtual ~ActionSelection(void);
 
 		//Execute action (code depends on action type)

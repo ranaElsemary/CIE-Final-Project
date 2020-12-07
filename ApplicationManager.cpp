@@ -4,14 +4,14 @@
 #include "Actions\ActionAddBulb.h"
 #include "Actions\ActionAddFuse.h"
 #include "Actions\ActionAddConnection.h"
-#include "..\\CIE202-Electric-Circuit-Sim\ActionAddBuzzer.h"
-#include "..\CIE202-Electric-Circuit-Sim\ActionAddGround.h"
-#include "..\CIE202-Electric-Circuit-Sim\ActionAddSwitch.h"
+#include "ActionAddBuzzer.h"
+#include "ActionAddGround.h"
+#include "ActionAddSwitch.h"
 #include "Components/Component.h"
 #include"Components/Component.cpp"
-#include"..\CIE202-Electric-Circuit-Sim\ActionLoad.h"
-#include "..\CIE202-Electric-Circuit-Sim\ActionEditLabel.h"
-#include "..\\CIE202-Electric-Circuit-Sim\ActionSave.h"
+#include"ActionLoad.h"
+#include "ActionEditLabel.h"
+#include "ActionSave.h"
 #include <iostream>
 using namespace std;
 
@@ -89,7 +89,7 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
 			cout << "load";
 			break;
 		case EDIT_Label:
-			pAct = new LabelEdit(this);
+			pAct = new ActionEditLabel(this);
 			break;
 
 		case EXIT:
